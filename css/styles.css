@@ -1,7 +1,8 @@
 .name{
     height: 100px;
-    padding: 30px;
+    /*padding-left: 30px*/
     background-color: #4AAAA5;
+    width:200px;
 }
 
 .tnbar{
@@ -13,7 +14,7 @@
 }
 
 .footer{
-	position: absolute;
+  position: absolute;
   right: 0;
   bottom: 0;
   left: 0;
