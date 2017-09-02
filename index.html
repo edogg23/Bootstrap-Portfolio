@@ -9,6 +9,8 @@
 	<title>My Bio In Bootstrap</title>
 
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
 
 </head>
@@ -29,7 +31,7 @@
   </nav> -->
 
 	
-	<nav class="navbar navbar-default">
+	<nav class="navbar navbar-default headerBG">
 		<div class="container">
 			<div class="navbar-header">
 				<h1 class="navbar-brand name">Ernest</h1>
@@ -45,19 +47,20 @@
 		</div>
 	</nav>
 
-	<div class="container-fluid">
+	<div class="container wideBarBG">
 		<div class="row">
-			<div class="col-xs-12 col-md-8">
-				<h1 class="heading">About Me</h1>
-				<hr class="gline">
-				<img src="images/me2.jpg" alt="my selfie" height="200px" width="200px" style="float: left; margin: 4px 10px 0px 0px; border: 1px solid #000000;">
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci natus ipsa tempore deserunt consectetur, sapiente facilis nemo quos, nisi iste sequi porro facere aspernatur aliquam cum repellendus alias maiores! Explicabo.</p>
-				<p>Tempore dicta pariatur quasi dolore possimus, animi quos laudantium repellendus dolorem nesciunt quo temporibus aliquid libero, officia et inventore. Fugit ad doloremque, accusamus aspernatur eveniet optio recusandae accusantium numquam enim!</p>
-				<p>Veniam dolore molestiae sequi vero asperiores error fuga distinctio soluta nobis quaerat quam omnis animi, dolor blanditiis assumenda vitae similique, modi ab! Possimus fugiat ea, molestiae consectetur labore dolorum totam?</p>
-				<p>Excepturi quis repellat officia repellendus porro quibusdam aperiam, laborum veniam quod voluptates suscipit at error qui molestias, minima et quas vel tempora. Dolorum maxime quaerat harum sed quas debitis voluptas.</p>
-				<p>Eius ad cum nesciunt omnis harum rem eos dolore delectus, distinctio illum facilis inventore reiciendis quasi minima adipisci dolor doloremque aliquid consectetur ipsum? Corporis, culpa commodi beatae nulla dolor suscipit?</p>
-			</div>
-			<div class="col-xs-12 col-md-4">
+				<div class="col-xs-12 col-md-8 widebar">
+					<h1 class="heading">About Me</h1>
+					<hr class="gline">
+					<img src="images/me2.jpg" alt="my selfie" height="200px" width="200px" style="float: left; margin: 4px 10px 0px 0px; border: 1px solid #000000;">
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci natus ipsa tempore deserunt consectetur, sapiente facilis nemo quos, nisi iste sequi porro facere aspernatur aliquam cum repellendus alias maiores! Explicabo.</p>
+					<p>Tempore dicta pariatur quasi dolore possimus, animi quos laudantium repellendus dolorem nesciunt quo temporibus aliquid libero, officia et inventore. Fugit ad doloremque, accusamus aspernatur eveniet optio recusandae accusantium numquam enim!</p>
+					<p>Veniam dolore molestiae sequi vero asperiores error fuga distinctio soluta nobis quaerat quam omnis animi, dolor blanditiis assumenda vitae similique, modi ab! Possimus fugiat ea, molestiae consectetur labore dolorum totam?</p>
+					<p>Excepturi quis repellat officia repellendus porro quibusdam aperiam, laborum veniam quod voluptates suscipit at error qui molestias, minima et quas vel tempora. Dolorum maxime quaerat harum sed quas debitis voluptas.</p>
+					<p>Eius ad cum nesciunt omnis harum rem eos dolore delectus, distinctio illum facilis inventore reiciendis quasi minima adipisci dolor doloremque aliquid consectetur ipsum? Corporis, culpa commodi beatae nulla dolor suscipit?</p>
+				</div>
+			
+			<div class="col-xs-12 col-md-4 sidebar">
 				<h2 class="heading"><center>Connect with me</center></h2>
 				<hr class="gline">
 				<ul class="nav navbar-nav navbar-right img-responsive center-block rightNavbr">
@@ -65,6 +68,7 @@
 					<li><a href="https://www.linkedin.com/" target="_blank"><img class="social social-linkedin" src="images/linkDinLog.jpg" height="60px" width="60px" alt="LinkedIn"></a></li>
 					<li><a href="https://stackoverflow.com/" target="_blank"><img class="social social-facebook" src="images/stackLogo.jpg" height="60px" width="60px" alt="Stack Overflow"></a></li>
 				</ul>
+			</div>
 			</div>
 		</div>
 
@@ -79,42 +83,11 @@
 	</footer>
 
 	
-	<!-- <div class="row">
-  <div class="col-sm-12">
-    <div class="row">
-      <div class="col-md-3">
-        <div class="well">
-          <h4 class="text-danger"><span class="label label-danger pull-right">- 9%</span> New Users </h4>
-        </div>
-      </div>
-      <div class="col-md-3">
-        <div class="well">
-          <h4 class="text-success"><span class="label label-success pull-right">+ 3%</span> Returning </h4>
-        </div>
-      </div>
-      <div class="col-md-3">
-        <div class="well">
-          <h4 class="text-primary"><span class="label label-primary pull-right">201</span> Sales </h4>
-        </div>
-      </div>
-      <div class="col-md-3">
-        <div class="well">
-          <h4 class="text-success"><span class="label label-success pull-right">+ 24%</span> Pageviews </h4>
-        </div>
-      </div>
-    </div> /row-->    
-  <!-- </div>  /col-12--> 
-<!-- </div>   /row--> 
 
-
-<!-- 	<div class="d-flex p-2">I'm a flexbox container!</div>
-
-	<div class="d-inline-flex p-2">I'm an inline flexbox container!</div>
-
-	<div class="d-flex justify-content-start">...</div>
-	<div class="d-flex justify-content-end">...</div>
-	<div class="d-flex justify-content-center">...</div>
-	<div class="d-flex justify-content-between">...</div>
-	<div class="d-flex justify-content-around">...</div> --> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js">
+    	
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="js/myscript.js"></script>
 </body>
 </html>

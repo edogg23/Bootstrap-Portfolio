@@ -1,9 +1,36 @@
+.headerBG{
+	background-color: white;
+}
+
+.wideBarBG{
+	background-color: #D3D3D3;
+}
+
 .name{
     height: 100px;
     /*padding-left: 30px*/
     background-color: #4AAAA5;
     width:200px;
 }
+
+.widebar {
+    width: calc(65% - 20px);
+  }
+
+ .sidebar {
+    width: calc(35% - 20px);
+    margin-left: 40px;
+    margin-top: 0;
+  }
+  
+.widebar,
+.sidebar {
+  background-color: #fff;
+  padding:  40px 30px;
+  border: 2px solid grey;
+  border-color: #DCDCDC;
+}
+
 
 .heading{
   color: #4AAAA5;  
